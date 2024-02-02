@@ -1,0 +1,95 @@
+
+.navbar {
+  position: relative;
+    background-color: #C2EFD4;
+    padding: 10px;
+    height: 10rem;
+    z-index: 2;
+  }
+  
+  .navbar-brand {
+    cursor: pointer;
+    /* background-color: #2874f0; */
+  }
+  
+  .logo {
+    height: 60px;
+    height: 60px;
+  }
+
+  .navbar-heading{
+    color: #224F34;
+    margin-left: 3rem;
+    font-family: 'Rufina', serif;
+    
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .nav-link {
+    color: #f4eded;
+    cursor: pointer; 
+  }
+  
+  .nav-item {
+    /* background-color: aqua; */
+    margin-right: 30px;
+    font-size: 20px;
+    color: #224F34;
+    cursor: pointer;
+  }
+  
+  .profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .profile-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-button {
+    background-color: #f0d4d4;
+    color: #1d1b1b;
+    /* border: 1px #333; */
+    /* border-radius: 0.5rem; */
+    padding: 5px 10px;
+    cursor: pointer;
+    
+    
+  }
+  
+  .navbar-nav.ml-auto {
+    display: flex;
+    align-items: center;
+    margin-left: 70%
+  }
+  
+  .active {
+    border-bottom: 2.5px solid #224F34;
+    border-radius: 0.5rem;
+  }
+
+  .pages{
+    margin-left: 3rem;
+    /* background-color: aqua; */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggler-icon {
+      background-color: #f0dada;
+    }
+  
+    .navbar-toggler {
+      padding: 0;
+    }
+  
+    .navbar-collapse {
+      background-color: #2874f0;
+    }
+  }
+  
