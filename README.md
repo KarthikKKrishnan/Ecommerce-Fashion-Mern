@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# E-commerce app
+
+# Fashion Store
 
 An E-commerce application using MERN stack.
 
@@ -7,9 +7,9 @@ An E-commerce application using MERN stack.
 
 Open your Terminal or Powershell if you are using windows. And then:
 
-`git clone https://github.com/devdevaraj/e-commerce-app.git`
+`git clone https://github.com/KarthikKKrishnan/Ecommerce-Fashion-Mern.git`
 
-`cd e-commerce-app`
+`cd Ecommerce-Fashion-Mern`
 
 `npm i`
 
